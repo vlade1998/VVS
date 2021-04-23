@@ -22,3 +22,6 @@ class TestTriangleMethods(unittest.TestCase):
     def test_scalene_triangle(self):
         t = Triangle(3,4,5)
         self.assertEqual(t.classify(), TriangleType.SCALENE)
+
+if __name__ == '__main__':
+    unittest.main()
